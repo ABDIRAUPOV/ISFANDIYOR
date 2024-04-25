@@ -1,0 +1,170 @@
+@ -0,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-family: sans-serif ;
+}
+header{
+    background: #f6f2f2;
+}
+header nav{
+    margin-top: 30px !important ;
+    max-width: 1250px;
+    margin: auto;
+    background: #313030;
+    text-align: center;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+header nav ul li a{
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    padding: 40px 20px 30px 20px;
+    text-decoration: none;
+}
+.active, header nav ul li a:hover{
+    background: #ff3f40;
+}
+/* :end header */
+/* :start section-a  */
+.section-a{
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 110px 0px;
+}
+.section-a .text{
+    max-width: 1250px;
+    background: #f6f2f2;
+} 
+.section-a .text h1{
+    font-family: Tahoma;
+    font-size: 60px;
+    font-weight: 400;
+    color: rgb(20, 8, 8);
+}
+.section-a .text p {
+    font-family: Tahoma;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7f7d7d;
+    line-height: 30px;
+}
+.section-a .text button{
+    margin: 22px 64px;
+    border-radius: 10px;
+    padding-top: 60px;
+    color: #ffff;
+    background: #ff2d2d;
+}
+.meet .meet-wrapper{
+    max-width: 1250px;
+    margin: auto;
+}
+.meet .meet-wrapper .meet-top{
+   max-width: 450px;
+}
+.meet .meet-wrapper .meet-top h1{
+    font-weight: 700px;
+    font-size: 42px;
+    text-transform: uppercase;
+    color:#585858;
+}
+.meet .meet-wrapper .meet-top p{
+    font-weight: 700px;
+    font-size: 42px;
+    color: #585858;
+    margin-top: 35px;
+}
+.meet .meet-wrapper .meet-top p ::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    width: 130px;
+    height: 3px;
+    background: crimson;
+}
+
+
+.meet  .meet-wrapper .meet-button{
+   margin-top: 80px;  
+   display: flex; 
+   justify-content: space-between;
+ }
+ .meet  .meet-wrapper .meet-button  .meet-img{
+    width: 350px;  
+    height: 460px;
+    color: red;
+  }
+  .meet  .meet-wrapper .meet-button  .meet-img{
+    width: 100%;  
+    height: 100%;
+  }
+  .meet  .meet-wrapper .meet-button .img-box{
+      max-height: 840px;
+  }
+  .meet  .meet-wrapper .meet-button .img-box h1{
+      font-weight: 700;
+      font-size: 30px;
+      text-transform: uppercase;
+      color: #585858;
+  }
+  .meet  .meet-wrapper .meet-button .img-box p{
+     font-weight: 400;
+     font-size: 16px;
+     color: #585858;
+     margin: 30px 0px;
+  }
+  .meet  .meet-wrapper .meet-button .img-box ul{
+      display: flex;
+      text-decoration: none;
+      max-width: 350px;
+      justify-content: space-between;
+  }
+  .meet  .meet-wrapper .meet-button .img-box ul li a{
+      font-style: italic;
+      font-size: 18px;
+      font-weight: 400;
+      color: #585858;
+      text-decoration: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
